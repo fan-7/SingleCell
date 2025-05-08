@@ -25,3 +25,8 @@ cytotrace_analysis <- function(sobj) {
   # 返回分析结果
   return(results)
 }
+
+# 示例使用
+# sobj <- readRDS("WTsscRNA.rds")
+# result <- cytotrace_analysis(sobj)
+# print(result)
